@@ -29,6 +29,7 @@ function Features() {
       <div className="max-w-7xl mx-auto">
         <h2 className="text-3xl md:text-4xl font-bold text-center text-primary-dark mb-12">
         Premium Intelligence Delivered to Your Inbox        </h2>
+        <p className="py-3 px-2 mb-4">Transform your decision-making with SAF Intelligence, the industry's most comprehensive newsletter covering the sustainable aviation fuel ecosystem. From groundbreaking investments to critical policy developments, we deliver actionable intelligence to stakeholders across the value chain.</p>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           {features.map((feature, index) => (
             <div key={index} className="p-6 rounded-lg bg-white shadow-lg hover:shadow-xl transition-shadow">

@@ -38,7 +38,7 @@ export const NewsletterForm = () => {
   };
 
   return (
-    <div className="max-w-lg mx-auto  rounded-xl  overflow-hidden mb-8">
+    <div className="max-w-md mx-auto  rounded-xl  overflow-hidden mb-8">
       <div className="p-4">
         <form onSubmit={handleSubmit} className="space-y-4">
           <div>
