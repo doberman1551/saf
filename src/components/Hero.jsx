@@ -13,7 +13,7 @@ function Hero() {
             Make data-driven decisions with real-time SAF market intelligence and analytics in your inbox.
           </p>
           <div className="flex flex-col sm:flex-row justify-center gap-4">
-            <button className="btn-primary">Subscribe ✉️</button>
+           {/* <button className="btn-primary">Subscribe ✉️</button> */}
             <NewsletterForm/>
            {/* <button className="btn-secondary">Learn More</button> */}
           </div>
