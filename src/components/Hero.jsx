@@ -1,3 +1,5 @@
+
+
 function Hero() {
   return (
     <section className="pt-24 pb-20 bg-gradient-to-br from-primary-light via-white to-white">
@@ -11,8 +13,9 @@ function Hero() {
             Make data-driven decisions with real-time SAF market intelligence and analytics
           </p>
           <div className="flex flex-col sm:flex-row justify-center gap-4">
-            <button className="btn-primary">Request Demo</button>
-            <button className="btn-secondary">Learn More</button>
+            <button className="btn-primary">Subscribe ✉️</button>
+         
+           {/* <button className="btn-secondary">Learn More</button> */}
           </div>
         </div>
       </div>
