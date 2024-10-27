@@ -11,7 +11,7 @@ export const NewsletterForm = () => {
     setLoading(true);
 
     try {
-      const response = await fetch('https://cors-anywhere.herokuapp.com/https://api.beehiiv.com/v2/subscriptions', {
+      const response = await fetch('https://api.beehiiv.com/v2/subscriptions', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
