@@ -41,7 +41,7 @@ export const NewsletterForm = () => {
   return (
     <div className="max-w-md mx-auto  rounded-xl  overflow-hidden mb-8">
       <div className="p-4">
-        <form onSubmit={handleSubmit} className="space-y-4">
+    {/*    <form onSubmit={handleSubmit} className="space-y-4">
           <div>
           
             <input
@@ -65,9 +65,10 @@ export const NewsletterForm = () => {
             ) : (
               'Subscribe ✉️'
             )}
-          </button>
-          <iframe src="https://embeds.beehiiv.com/91ad6a57-6681-46ad-9f35-cd5a6a7dcd10" data-test-id="beehiiv-embed" width="100%" height="320"></iframe>
-        </form>
+          </button> /*}
+       
+        </form> */}
+           <iframe src="https://embeds.beehiiv.com/91ad6a57-6681-46ad-9f35-cd5a6a7dcd10?slim=true" data-test-id="beehiiv-embed" height="52"></iframe>
       </div>
     </div>
   );
