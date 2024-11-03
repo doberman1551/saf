@@ -13,6 +13,7 @@ export const NewsletterForm = () => {
     try {
       const response = await fetch('https://api.beehiiv.com/v2/subscriptions', {
         method: 'POST',
+        mode: 'no-cors',
         headers: {
           'Content-Type': 'application/json',
           'Authorization': `Bearer ${import.meta.env.VITE_BEEHIIV_API_KEY}`,
