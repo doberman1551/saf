@@ -68,7 +68,7 @@ export const NewsletterForm = () => {
           </button> /*}
        
         </form> */}
-           <iframe src="https://embeds.beehiiv.com/91ad6a57-6681-46ad-9f35-cd5a6a7dcd10?slim=true" data-test-id="beehiiv-embed" height="52"></iframe>
+           <iframe src="https://embeds.beehiiv.com/91ad6a57-6681-46ad-9f35-cd5a6a7dcd10?slim=true" data-test-id="beehiiv-embed" height="52" className="w-full space-y-4 mx-4"></iframe>
       </div>
     </div>
   );
