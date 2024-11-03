@@ -3,12 +3,14 @@ import { HiMenu, HiX } from 'react-icons/hi';
 
 function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
+  const logoUrl = "https://i.ibb.co/0C2R4Xh/Copy-of-Untitled-4.png" ;
 
   return (
     <nav className="bg-white shadow-lg fixed w-full z-50">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between h-16">
           <div className="flex items-center">
+          <img src={logoUrl} alt="Clear Sky OS Logo" className="h-9 w-auto mr-2" />
             <span className="text-2xl font-bold text-primary-dark">
               Clear Sky OS
             </span>

@@ -3,7 +3,7 @@ function ContactForm() {
     <section id="contact" className="section-padding bg-gray-50">
       <div className="max-w-3xl mx-auto">
         <h2 className="text-3xl md:text-4xl font-bold text-center text-primary-dark mb-12">
-          Request a Demo
+          Contact us
         </h2>
         <form className="space-y-6">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">

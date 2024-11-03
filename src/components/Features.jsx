@@ -1,26 +1,26 @@
-import { HiChartBar, HiGlobe, HiLightningBolt, HiTrendingUp } from 'react-icons/hi'
+import { HiChartBar, HiGlobe, HiDatabase, HiLightningBolt, HiTrendingUp } from 'react-icons/hi'
 
 function Features() {
   const features = [
     {
       icon: <HiChartBar className="h-8 w-8" />,
-      title: "Real-time Analytics",
-      description: "Track SAF market trends and prices with live data updates"
+      title: "Latest Developments",
+      description: "Track SAF market trends and latest updates"
     },
     {
       icon: <HiGlobe className="h-8 w-8" />,
-      title: "Global Coverage",
-      description: "Access SAF market data from major aviation hubs worldwide"
+      title: "Deals and Offtake agreements",
+      description: "Access latest SAF Investments and signed Offtake agreements"
     },
     {
       icon: <HiLightningBolt className="h-8 w-8" />,
-      title: "Instant Insights",
-      description: "Get actionable insights with our advanced analytics engine"
+      title: "Policy Updates",
+      description: "Get updates on policy updates and government funding"
     },
     {
-      icon: <HiTrendingUp className="h-8 w-8" />,
-      title: "Forecast Models",
-      description: "Predict market trends with our AI-powered forecasting"
+      icon: <HiDatabase className="h-8 w-8" />,
+      title: "Companies Database",
+      description: "Access Database with producers, feedstock suppliers"
     }
   ]
 

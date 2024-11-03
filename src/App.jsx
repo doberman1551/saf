@@ -14,7 +14,7 @@ function App() {
         <Hero />
         <Features />
         <DataVisualization />
-        <Pricing />
+       {/* <Pricing /> */}
         <ContactForm />
       </main>
       <Footer />
