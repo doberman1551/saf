@@ -66,6 +66,7 @@ export const NewsletterForm = () => {
               'Subscribe ✉️'
             )}
           </button>
+          <iframe src="https://embeds.beehiiv.com/91ad6a57-6681-46ad-9f35-cd5a6a7dcd10" data-test-id="beehiiv-embed" width="100%" height="320"></iframe>
         </form>
       </div>
     </div>
