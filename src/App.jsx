@@ -16,7 +16,7 @@ function App() {
         <Features />
         <IFrame src="https://embeds.beehiiv.com/91ad6a57-6681-46ad-9f35-cd5a6a7dcd10"/>
 
-        <ContactForm />
+ 
       </main>
       <Footer />
     </div>
